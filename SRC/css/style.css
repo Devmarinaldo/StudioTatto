@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.section1{
+    display: flex;
+    display: block;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
+
+/*.caixa1{
+    padding: 290px;
+}*/
+
+.imgquemsomos{
+    display: flex;
+    display: inline-block;
+    
+}
+.caixagrande{
+    margin-top: 50px;
+    margin: 0 80px;
+}
+.cabecalho, img{
+    display: block;
+}
+
+img{
+    max-width: 320px;
+}
+
+.arte{
+    display: flex;
+    display: inline-block;
+}
+.caixaartes{
+    display: flex;
+    display: inline;
+    align-items: center;
+}
+
+/*.caixaartes{
+    margin: 0 240px;
+}*/
+
+nav{
+    display: block;
+}
+
+li{
+    display: flex;
+    display: inline;
+    text-align: end;
+
+}
+
+ul{
+    text-align: end;
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+}
+
+h3{
+    text-align: center;
+    font-size: 45px;
+}
+
+/*  Formulario tatto   */
+.formulariotatto{
+    display: flex;
+    display: inline-block;
+    flex-direction: center;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    justify-items: center;
+    margin: 90px 20VW;
+}
+
+ form{
+    display: flex;
+    display: block;
+    text-align: center;
+}
+
+input{
+    color: black;
+    display: block;
+    height: 25px;
+    width: 50vw;
+    background-color: white;
+    font-size: 20px;
+    margin: 5px;
+}
+
+textarea{
+    width: 50vw;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+
+button{
+    padding: 10px;
+    font-size: 25px;
+    background-color: red;
+    text-align: center;
+ 
+}
+
+
+/* Redes sociais */
+
+.redes-sociais{
+    display: flex;
+    display: inline;
+    align-items: end;
+
+}
+
+
+.sociais{
+    display: flex;
+    display: inline-block;
+    padding: 7px;
+    justify-content: end;
+    width: 50px;
+}
+
+.insta{
+    width: 50px;
+}
+
+.faceb{
+    width: 50px;
+}
+
