@@ -22,26 +22,4 @@ function enviardados(numerotelefone, Nome, Pedido, referencia, ) {
     window.open(url).focus();
 
 }
-/*function enviardados(numerotelefone, Nome, Pedido, referencia, nomeArquivo) {
-    var formData = new FormData();
-    formData.append('numerotelefone', numerotelefone);
-    formData.append('Nome', Nome);
-    formData.append('Pedido', Pedido);
-    formData.append('referencia', referencia);
 
-    var xhr = new XMLHttpRequest();
-    xhr.open("POST", "seu_script_de_envio.php", true);
-    xhr.onload = function() {
-        if (xhr.status === 200) {
-            var url = "https://wa.me/" + numerotelefone + "?text="
-                + " Nome: " + Nome + "%0a"
-                + " Pedido : " + Pedido + "%0a"
-                + "  arquivo: " + nomeArquivo + "%0a"
-                + " Linkdaimagem: " + xhr.responseText;
-            window.open(url).focus();
-        } else {
-            alert('Erro ao enviar os dados.');
-        }
-    };
-    xhr.send(formData);
-}*/
